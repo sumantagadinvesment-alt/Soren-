@@ -1,0 +1,12 @@
+# Initialize a local repository
+git init my-project
+cd my-project
+
+# Add files and commit
+git add .
+git commit -m "Initial commit"
+
+# Add remote and push
+git remote add origin https://github.com/username/my-project.git
+git branch -M main
+git push -u origin main
